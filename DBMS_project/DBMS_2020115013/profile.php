@@ -66,8 +66,9 @@ header("location:login/login.php");
             <h2 class="prosubtitle">Your Previous Bookings</h2><br>
             <div class="profile-movie-flex">
             <?php
+            $qwerty=$_SESSION["Cust_id"];
             $q = <<<EOF
-                Select * from "Booking" limit 6;
+                Select * from "Booking" where "Cust_ID"=$qwerty limit 4;
                 EOF;
                 $counter=0;
                 $result=pg_query($con,$q);
@@ -75,8 +76,8 @@ header("location:login/login.php");
                 {
                     if(($counter+1)%3==0)
                     echo "</div><div class='profile-ticket'>";
-                    if($row[2]==$_SESSION["Cust_id"])
-                    {
+                    
+                    
                         $words=explode(' ',$row[8]);
                         $ans="";
                         foreach($words as $i)
@@ -99,7 +100,7 @@ header("location:login/login.php");
                             echo "</div>";
                         $counter++;
                         echo "</div>";
-                    }
+                    
                 }
                 if($counter==0)
                 echo "<div class='no-message'>You have not made in any bookings yet</div>";
