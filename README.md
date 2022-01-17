@@ -60,7 +60,7 @@ Follow the following steps to use this project in your computer/laptop
 
 * First, fork this repository and download the DBMS_Project folder
 * Store the folder inside your HTdocs folder (install xampp if you haven't)
-* Using pgadmin4 (PostgresSQL 13 or higher), import the sql dump file (dreamworldcinemas.sql) to get the SQL tables
+* Using pgadmin4 (PostgresSQL 13 or higher), import the sql dump file [dreamworldcinemas](https://github.com/ArunachalamM101202/DBMS-Movie-Booking-Project/blob/main/DBMS_project/dreamworldcinemas) to get the SQL tables
 * Start your xampp server
 * Type ```localhost:8080/DBMS_project/DBMS_2020115013/login/login.php``` in the address bar
 * Login page is the first page of the website, if you try to open any other page, it will redirect to the login page.
