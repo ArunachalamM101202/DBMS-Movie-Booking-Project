@@ -1,5 +1,7 @@
 # **DBMS-Movie-Booking-Project**
-An Online Movie Booking Website that is completely driven by a database to ensure that it can be implemented in a real time scenario as any change of data needs to be done only in the database using SQL queries and the changes are immediately reflected. 
+An Online Movie Booking Website whose data is completely from a database to ensure that it can be implemented in a real time scenario as any change of data needs to be done only in the database using SQL queries and the changes are immediately reflected. No important movie data, comments data, profile data is hard coded in this project
+
+**This website was made by [Arunachalam M](https://github.com/ArunachalamM101202) on 17th January 2022**
 
 ## For Quick Navigation
 - [Technologies Used](#tech)
@@ -7,9 +9,9 @@ An Online Movie Booking Website that is completely driven by a database to ensur
 - [Working Demo of the Project](#demo)
 - [Why did I do this Project?](#why)
 - [What did I learn from this Project?](#learn)
+- [How to use this Project ?](#use)
+- [License](#lic)
 - [Contact](#con)
-
-**This website was made by [Arunachalam M](https://github.com/ArunachalamM101202) on 17th January 2022**
 
 ## Technologies Used <a id="tech"></a>
 - HTML
@@ -43,14 +45,29 @@ To find a solution to the above mentioned problem is the main reason for the cre
 Another reason why I wanted to do this project was to create a really functional profile page which tracks the user's data and shows them a summary of their ticket bookings, comments posted by them and other information etc.
 
 ## What did I learn from this Project <a id="learn"></a>
+- Learnt more about the steps and processes to be done to have an efficient backend for a project
 - How to make a proper ER Diagram before starting a project
-- How to retrieve each and every piece of information using primary and foreign keys
-- 
+- How to retrieve any information using primary and foreign keys
+- Learnt how to make a website which has no hard coded data
 - How to connect php and PostgreSQL
 - How to make the best use of **PHP Sessions**
 - Learnt how to use postgres specific functions in php (Ex: pg_query(), pg_num_rows())
 - How to use advanced CSS3 features like flexbox, transitions, parallax and glow effect
-- 
+
+## How to use this Project ? <a id="use"></a>
+
+Follow the following steps to use this project in your computer/laptop
+
+* First, fork this repository and download the DBMS_Project folder
+* Store the folder inside your HTdocs folder (install xampp if you haven't)
+* Using pgadmin4 (PostgresSQL 13 or higher), import the sql dump file (dreamworldcinemas.sql) to get the SQL tables
+* Start your xampp server
+* Type ```localhost:8080/DBMS_project/DBMS_2020115013/login/login.php``` in the address bar
+* Login page is the first page of the website, if you try to open any other page, it will redirect to the login page.
+* Now you can create an account and start using the website and explore its functionalities
+
+## License <a id="lic"></a>
+DBMS-Movie-Booking-Project is licensed under the MIT License. Read the [License file](https://github.com/ArunachalamM101202/DBMS-Movie-Booking-Project/blob/main/LICENSE) to know more
 
 ## Contact <a id="con"></a>
 Arunachalam M - rome101202@gmail.com
