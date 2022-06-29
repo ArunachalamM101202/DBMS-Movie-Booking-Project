@@ -1,4 +1,5 @@
 # **DBMS-Movie-Booking-Project**
+## Project Description
 An Online Movie Booking Website whose data is completely from a database to ensure that it can be implemented in a real time scenario as any change of data needs to be done only in the database using SQL queries and the changes are immediately reflected. No important movie data, comments data, profile data is hard coded in this project
 
 **This website was made by [Arunachalam M](https://github.com/ArunachalamM101202) on 17th January 2022**
