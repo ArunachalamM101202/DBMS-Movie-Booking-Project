@@ -7,7 +7,6 @@ An Online Movie Booking Website whose data is completely from a database to ensu
 ## For Quick Navigation
 - [Technologies Used](#tech)
 - [Functionalities of the website](#func)
-- [ER Diagram](#er)
 - [Working Demo of the Project](#demo)
 - [Why did I do this Project?](#why)
 - [What did I learn from this Project?](#learn)
@@ -35,9 +34,6 @@ An Online Movie Booking Website whose data is completely from a database to ensu
 - At the end of booking, users can view their booking summary in the form of a ticket with the total amount displayed at the end which is done by using PHP sessions
 - Each user has a seperate profile page which displays their personal information(information entered during sign up), previous bookings and recent comments on any movie
 - Users can delete their account
-
-## ER Diagram <a id="er"></a>
-![ER Diagram](https://github.com/ArunachalamM101202/DBMS-Movie-Booking-Project/blob/main/DBMS_project/ER_Diagram.png)
 
 ## Working Demo of the Project <a id="demo"></a>
 Click the below image to play the video<br>
