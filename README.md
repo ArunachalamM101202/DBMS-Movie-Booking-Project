@@ -36,6 +36,9 @@ An Online Movie Booking Website whose data is completely from a database to ensu
 - Each user has a seperate profile page which displays their personal information(information entered during sign up), previous bookings and recent comments on any movie
 - Users can delete their account
 
+## ER Diagram <a id="er"></a>
+![ER Diagram](https://github.com/ArunachalamM101202/DBMS-Movie-Booking-Project/blob/main/DBMS_project/ER_Diagram.png)
+
 ## Working Demo of the Project <a id="demo"></a>
 Click the below image to play the video<br>
 [![DBMS Project Working Video](https://img.youtube.com/vi/K8LhyQqXlgY/0.jpg)](https://www.youtube.com/watch?v=K8LhyQqXlgY)
