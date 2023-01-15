@@ -36,7 +36,7 @@ An Online Movie Booking Website whose data is completely from a database to ensu
 - Users can delete their account
 
 ## Working Demo of the Project <a id="demo"></a>
-[DBMS Movie Booking Project Video](https://drive.google.com/file/d/12NqGfKC7Fb5VyH9Puu_yksZO9H_8hLAg/view?usp=sharing)
+[![DBMS Project Working Video](https://img.youtube.com/vi/K8LhyQqXlgY/0.jpg)](https://www.youtube.com/watch?v=K8LhyQqXlgY)
 
 ## Why did I do this Project?  <a id="why"></a>
 The main purpose of this project started when I was developing my previous [Movie Booking Website](https://github.com/ArunachalamM101202/Movie-Booking-Website). Most of the data was hard coded and the website cannot be used in a real time scenario as each addition or deletion of a movie will require entire change of code in multiple places.
