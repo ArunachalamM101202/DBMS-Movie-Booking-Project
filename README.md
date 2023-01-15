@@ -1,12 +1,13 @@
 # **DBMS-Movie-Booking-Project**
 ## Project Description
-An Online Movie Booking Website whose data is completely from a database to ensure that it can be implemented in a real time scenario as any change of data needs to be done only in the database using SQL queries and the changes are immediately reflected. No important movie data, comments data, profile data is hard coded in this project
+An Online Movie Booking Website whose data is completely from a database to ensure that it can be implemented in a real-time scenario as any change of data needs to be done only in the database using SQL queries and the changes are immediately reflected.
 
 **This website was made by [Arunachalam M](https://github.com/ArunachalamM101202) on 17th January 2022**
 
 ## For Quick Navigation
 - [Technologies Used](#tech)
 - [Functionalities of the website](#func)
+- [ER Diagram](#er)
 - [Working Demo of the Project](#demo)
 - [Why did I do this Project?](#why)
 - [What did I learn from this Project?](#learn)
@@ -36,13 +37,11 @@ An Online Movie Booking Website whose data is completely from a database to ensu
 - Users can delete their account
 
 ## Working Demo of the Project <a id="demo"></a>
+Click the below image to play the video<br>
 [![DBMS Project Working Video](https://img.youtube.com/vi/K8LhyQqXlgY/0.jpg)](https://www.youtube.com/watch?v=K8LhyQqXlgY)
 
 ## Why did I do this Project?  <a id="why"></a>
-The main purpose of this project started when I was developing my previous [Movie Booking Website](https://github.com/ArunachalamM101202/Movie-Booking-Website). Most of the data was hard coded and the website cannot be used in a real time scenario as each addition or deletion of a movie will require entire change of code in multiple places.
-
-To find a solution to the above mentioned problem is the main reason for the creation of this website. In this website, nothing is hard coded and everything can be changed by the use of a simple SQL query and this website can actually be used in **real time scenario**
-
+The main purpose of this project started when I was developing my previous [Movie Booking Website](https://github.com/ArunachalamM101202/Movie-Booking-Website). Most of the data were hard coded and the website cannot be used in a real-time scenario as each addition or deletion of a movie will require an entire change of code in multiple places. Finding a solution to the above-mentioned problem is the main reason for the creation of this website. In this website, nothing is hardcoded and everything can be changed by the use of a simple SQL query this website can actually be used in real-time scenario
 Another reason why I wanted to do this project was to create a really functional profile page which tracks the user's data and shows them a summary of their ticket bookings, comments posted by them and other information etc.
 
 ## What did I learn from this Project <a id="learn"></a>
